@@ -1,0 +1,62 @@
+.button-container {
+  display: flex;
+  justify-content:end;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button-container-l button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e94817;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-container-a button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #13e213;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container-a button:hover {
+  background-color: #159e33;
+}
+.button-container-l button:hover {
+  background-color: #b80606;
+}
+
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #bed304;
+}
+
+thead th {
+  background-color: rgb(233, 157, 17);
+  color: #e9e9e9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #555555;
+}
+
+tbody tr:hover {
+  background-color: #555555;
+}
+  
